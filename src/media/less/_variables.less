@@ -1,0 +1,83 @@
+@basic-color: #777;
+@basic-bg: #fff;
+@basic-gray-bg: #f5f5f5;
+@basic-light-gray-bg: #f9f9f9;
+@basic-border-dark-color: #999;
+@basic-border: #ccc;
+@basic-border-light-color: #e4e4e4;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Typography
+// -------------------------------------------------------------------------
+@basic-font-size: 14px;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Brand colors
+// ---------------------------------------------------------------------------------------------------------------------
+@brand-primary: #0091ce;
+@brand-success: #009339;
+@brand-warning: #FFB20F;
+@brand-danger: #ff3200;
+@brand-info: #5bc0de;
+
+@gray-darker: lighten(#000, 13.5%);
+@gray-dark: lighten(#000, 20%);
+@gray: lighten(#000, 33.5%);
+@gray-light: lighten(#000, 60%);
+@gray-lighter: lighten(#000, 93.5%);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Buttons
+// ---------------------------------------------------------------------------------------------------------------------
+@btn-font-weight: normal;
+
+@btn-default-color: #333;
+@btn-default-bg: #fff;
+@btn-default-border: #ccc;
+
+@btn-primary-color: #fff;
+@btn-primary-bg: @brand-primary;
+@btn-primary-border: darken(@btn-primary-bg, 5%);
+
+@btn-success-color: #fff;
+@btn-success-bg: @brand-success;
+@btn-success-border: darken(@btn-success-bg, 5%);
+
+@btn-warning-color: #fff;
+@btn-warning-bg: @brand-warning;
+@btn-warning-border: darken(@btn-warning-bg, 5%);
+
+@btn-danger-color: #fff;
+@btn-danger-bg: @brand-danger;
+@btn-danger-border: darken(@btn-danger-bg, 5%);
+
+@btn-info-color: #fff;
+@btn-info-bg: @brand-info;
+@btn-info-border: darken(@btn-info-bg, 5%);
+
+@btn-link-disabled-color: @gray-light;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Alert colors
+// ---------------------------------------------------------------------------------------------------------------------
+@alert-success-bg: lighten(@brand-success, 65%);
+@alert-warning-bg: lighten(@brand-warning, 40%);
+@alert-danger-bg: lighten(@brand-danger, 40%);
+@alert-info-bg: lighten(@brand-info, 40%);
+
+@alert-success: #333;
+@alert-warning: #333;
+@alert-danger: #333;
+@alert-info: #333;
+
+// =====================================================================================================================
+// HEADER
+// ---------------------------------------------------------------------------------------------------------------------
+@header-height: 50px;
+@stats-setting-bar-height: 90px;
+@side-nav-width: 370px;
+@header-color: #FFF;
+@header-bg: @brand-success;
+@header-border-color: darken(@header-bg, 5%);
+// @header-bottom-bg is used in src/media/less/_select.less
+@header-bottom-bg: #068322;
