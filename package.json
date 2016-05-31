@@ -6,6 +6,8 @@
   "dependencies": {
     "angular": "~1.4.9",
     "angular-sanitize": "~1.4.9",
+    "angular-ui-bootstrap": "^0.14.3",
+    "angular-ui-router": "^0.2.15",
     "api-check": "^7.5.5",
     "bootstrap": "^3.3.5",
     "clean-css": "^3.4.6",
@@ -19,7 +21,6 @@
     "json-loader": "^0.5.3",
     "less": "^2.5.3",
     "less-plugin-autoprefix": "^1.5.1",
-    "mi-angular-wbc-pack": "^0.4.0",
     "ng-annotate-loader": "0.0.10",
     "ng-annotate-webpack-plugin": "^0.1.2",
     "webpack": "^1.12.2"

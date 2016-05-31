@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+     <div class="navbar-header">
+        <a class="navbar-brand">MovingImage24</a>
+     </div>
+     <div id="navbar" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav">
+            <li ng-repeat="item in headerVm.menuItems"
+                ng-class="{ 'active' : ('app.post.' + item | includedByState) }">
+                <a ui-sref="app.post.{{item}}">
+                    <span class="title">{{item}}</span>
+                </a>
+           </li>
+
+        </ul>
+     </div>
+  </div>
+</nav>
+
+
